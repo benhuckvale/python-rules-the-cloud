@@ -50,5 +50,5 @@ if __name__ == '__main__':
     #pprint(result)
     
     # FOR ASYNCHRONOUS CALLS ONLY
-    #pprint.pprint(api.wait_for_job(result['jobid']))
+    #pprint(api.wait_for_job(result['jobid']))
 

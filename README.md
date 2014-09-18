@@ -12,6 +12,6 @@ Workshop information
 Documentation for Interoute VDC
 -------------------------------
 
-[http://cloudstore.interoute.com/main/library/vdc-v2]
+[http://cloudstore.interoute.com/main/knowledge-centre/library/vdc-v2]
 
 
