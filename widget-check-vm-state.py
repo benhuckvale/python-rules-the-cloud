@@ -29,7 +29,7 @@ class Application(Frame):
         self.vmStatesLabel["text"]=self.get_vm_info()
         # VM information will update after 60000 millisecs = 1 minute
         # ...set this value as you like
-        self.vmStatesLabel.after(120000, self.vmStates_update)
+        self.vmStatesLabel.after(60000, self.vmStates_update)
 
     def get_vm_info(self):
         #this method performs the API call 'listVirtualMachines'
@@ -66,7 +66,7 @@ class Application(Frame):
         self.vmStatesLabel["text"]=self.get_vm_info()
         # VM information will update after 60000 millisecs = 1 minute
         # ...set this value as you like
-        self.vmStatesLabel.after(120000, self.vmStates_update)
+        self.vmStatesLabel.after(60000, self.vmStates_update)
 
         self.QUIT = Button(self)
         self.QUIT["text"] = "QUIT"
