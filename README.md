@@ -26,6 +26,7 @@ python -i browse_in_repl.py
 
 For example:
 
+```
 >>> vms.<TAB>
 vms.as_dict         vms.count           vms.mro(            vms.virtualmachine
 >>> vms.virtualmachine
@@ -40,3 +41,4 @@ x.rootdevicetype         x.securitygroup          x.serviceofferingid      x.ser
 x.templatedisplaytext    x.templateid             x.templatename           x.zoneid                 x.zonename
 >>> x.name
 u'Cobra'
+```
