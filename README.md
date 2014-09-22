@@ -42,3 +42,21 @@ x.templatedisplaytext    x.templateid             x.templatename           x.zon
 >>> x.name
 u'Cobra'
 ```
+
+
+Challenge 2 - interesting representation
+========================================
+
+I thought I'd play around with Panda3D. Created a height map of the uk and plotted the virtual machines retrieved in their geographic locations. It's just for London and Slough. I couldn't find a 'Computer' 3d asset so I used toasters. If the toaster is spinning the VM is running. Multiple VMs in the same location stack up.
+
+On Mac OS X I found I had to:
+
+```
+install Panda3d sdk from http://www.panda3d.org/download.php?sdk
+install nvidia's cg toolkit from https://developer.nvidia.com/cg-toolkit-download
+sudo cp /Library/Python/2.5/site-packages/Panda3D.pth /Library/Python/2.7/site-packages/
+export VERSIONER_PYTHON_PREFER_32_BIT=yes
+python visualise_3d.py
+```
+
+Included screenshot file: screenshot_visualise_3d.png
